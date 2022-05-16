@@ -5,16 +5,14 @@ public class Member {
 	private String mem_pw;
 	private String mem_nick;
 	private String mem_email;
-	private String mem_level;
 	private String mem_joindate;
 	
-	public Member(String mem_id, String mem_pw, String mem_nick, String mem_email, String mem_level, String mem_joindate) {
+	public Member(String mem_id, String mem_pw, String mem_nick, String mem_email, String mem_joindate) {
 		super();
 		this.mem_id = mem_id;
 		this.mem_pw = mem_pw;
 		this.mem_nick = mem_nick;
 		this.mem_email = mem_email;
-		this.mem_level = mem_level;
 		this.mem_joindate = mem_joindate;
 		
 	}
@@ -38,9 +36,7 @@ public class Member {
 	public String getMem_email() {
 		return mem_email;
 	}
-	public String getMem_level() {
-		return mem_level;
-	}
+
 	public String getMem_joindate() {
 		return mem_joindate;
 	}
