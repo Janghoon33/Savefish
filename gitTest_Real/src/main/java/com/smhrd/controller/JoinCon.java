@@ -22,6 +22,7 @@ public class JoinCon extends HttpServlet {
 		System.out.println("[JoinCon]");
 		//post 방식 요청 데이터 인코딩
 		request.setCharacterEncoding("UTF-8");
+
 		
 		String mem_id = request.getParameter("mem_id");
 		String mem_pw = request.getParameter("mem_pw");

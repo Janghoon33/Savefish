@@ -20,7 +20,18 @@
 					<li><input type="submit" value="JoinUs" class="button fit"></li>
 				</form>
 			</ul>
+			
+							
+			<ul class="links">
+				<li><h5>로그인</h5></li>
+				<form action="LoginCon" method="post">
+				 	<li><input type="text" name="mem_id" placeholder="아이디를 입력하세요"></li>
+					<li><input type="password" name="mem_pw" placeholder="PW를 입력하세요"></li>
+					<li><input type="submit" value="LogIn" class="button fit"></li>
+					</form>
+			</ul>	
 					
+
 			
 			<script>
 				function emailCheck(){
