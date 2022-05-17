@@ -7,14 +7,11 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-
-
-
 //DB 관련 정보 읽어오는 작업 - mybatis-config.xml
 //SqlSessionFactory 생성
 public class SqlSessionManager {
 	public static SqlSessionFactory sqlSession;
-	
+
 	   static {
 	      String resource = "com/smhrd/database/mybatis-config.xml";
 	      Reader reader;
@@ -29,3 +26,5 @@ public class SqlSessionManager {
 	      return sqlSession;
 	   }
 }
+
+

@@ -27,9 +27,9 @@ public class JoinCon extends HttpServlet {
 		String mem_pw = request.getParameter("mem_pw");
 		String mem_nick = request.getParameter("mem_nick");
 		String mem_email = request.getParameter("mem_email");
-		String mem_joindate = request.getParameter("mem_joindate");
 		
-		Member m_vo = new Member(mem_id, mem_pw, mem_nick, mem_email, mem_joindate);
+		
+		Member m_vo = new Member(mem_id, mem_pw, mem_nick, mem_email);
 		
 		MemberDAO dao = new MemberDAO();
 		int cnt = dao.insertMember(m_vo);
@@ -39,13 +39,13 @@ public class JoinCon extends HttpServlet {
 			//회원가입한 회원의 정보중에서 email 넘겨 페이지 이동
 			//fowarding 방식으로 정보 담기	
 			//response.sendRedirect("joinSuccess.jsp");
-			RequestDispatcher rd = request.getRequestDispatcher("joinSuccess.jsp");
-			request.setAttribute("joinEmail", email);
+			RequestDispatcher rd = request.getRequestDispatcher("joinsuccess.jsp");
+			request.setAttribute("joinEmail", mem_id);
 			rd.forward(request, response);
 			
 		}else {	//회원가입 실패
 			System.out.println("회원가입 실패");
-			response.sendRedirect("main.jsp");
+			response.sendRedirect("Main.jsp");
 			
 		}
 

@@ -5,7 +5,7 @@
 <mapper namespace="com.smhrd.domain.MemberDAO">
 	
 	<insert id="insertMember" parameterType="com.smhrd.domain.Member">
-		insert into t_member values (#{mem_id}, #{mem_pw}, #{mem_nick}, #{mem_email}, #{mem_level}, #{mem_joindate})	
+		insert into t_member(mem_id, mem_pw, mem_nick, mem_email) values(#{mem_id}, #{mem_pw}, #{mem_nick}, #{mem_email})	
 	</insert>
 	
 	<select id="selectMember" parameterType="com.smhrd.domain.Member" resultType="com.smhrd.domain.Member">
