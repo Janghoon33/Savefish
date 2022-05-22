@@ -1,55 +1,55 @@
 package com.smhrd.controller;
 
 import java.io.IOException;
+import java.security.Timestamp;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest; 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.smhrd.domain.Member;
-import com.smhrd.domain.MemberDAO;
+import com.smhrd.domain.ExMember;
+import com.smhrd.domain.ExMemberDAO;
 
 
-@WebServlet("/JoinCon")
-public class JoinCon extends HttpServlet {
+
+public class ExJoinCon extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("[JoinCon]");
-		//post 방식 요청 데이터 인코딩
 		request.setCharacterEncoding("UTF-8");
-
+				
+				
+		String ex_id = request.getParameter("ex_id");
+		String ex_pw = request.getParameter("ex_pw");
+		String ex_name = request.getParameter("ex_name");
+		String ex_team = request.getParameter("ex_team");	
+		String ex_phone = request.getParameter("ex_phone");
 		
-		String mem_id = request.getParameter("mem_id");
-		String mem_pw = request.getParameter("mem_pw");
-		String mem_nick = request.getParameter("mem_nick");
-		String mem_email = request.getParameter("mem_email");
 		
+		ExMember exm_vo = new ExMember(ex_id, ex_pw, ex_name, ex_team, ex_phone);
 		
-		Member m_vo = new Member(mem_id, mem_pw, mem_nick, mem_email);
-		
-		MemberDAO dao = new MemberDAO();
-		int cnt = dao.insertMember(m_vo);
+		ExMemberDAO exdao = new ExMemberDAO();		
+		int cnt = exdao.ExInsertMember(exm_vo);
 		
 		if(cnt>0) { //회원가입 성공
 			System.out.println("회원가입 성공");
 			//회원가입한 회원의 정보중에서 email 넘겨 페이지 이동
 			//fowarding 방식으로 정보 담기	
 			//response.sendRedirect("joinSuccess.jsp");
-			RequestDispatcher rd = request.getRequestDispatcher("joinsuccess.jsp");
-			request.setAttribute("joinEmail", mem_id);
+			RequestDispatcher rd = request.getRequestDispatcher("ExJoinAfter.jsp");
+			request.setAttribute("joinEmail", ex_id);
 			rd.forward(request, response);
 			
 		}else {	//회원가입 실패
 			System.out.println("회원가입 실패");
-			response.sendRedirect("Main.jsp");
-	
+			response.sendRedirect("testform.jsp");
 			
 		}
 
 	}
+
 }

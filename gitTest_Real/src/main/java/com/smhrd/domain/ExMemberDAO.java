@@ -8,7 +8,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import com.smhrd.database.SqlSessionManager;
 
 
-public class MemberDAO {
+public class ExMemberDAO {
 	//SqlSessionFactory 생성 (연결해야하는 DB 설정 정보 가지고 있음)
 	// -> Session 생성 (DB연결, 작업수행, 종료 작업)
 		SqlSessionFactory sqlSessionFactory = SqlSessionManager.getSqlSession();
@@ -16,11 +16,11 @@ public class MemberDAO {
 		
 		
 		//회원가입 기능
-		public int insertMember(Member member) {
+		public int ExInsertMember(ExMember ex_member) {
 			SqlSession sqlSession = sqlSessionFactory.openSession();
 			int cnt = 0;
 			try {
-				cnt = sqlSession.insert("com.smhrd.domain.MemberDAO.insertMember", member);
+				cnt = sqlSession.insert("com.smhrd.domain.ExMemberDAO.ExInsertMember", ex_member);
 				if(cnt>0) {
 					sqlSession.commit();
 				}else {
@@ -37,17 +37,15 @@ public class MemberDAO {
 		
 		
 		
-		
-		
 		//로그인기능
-		public Member selectMember(Member member) {
+		public Member exSelectMember(ExMember ex_member) {
 			SqlSession sqlSession = sqlSessionFactory.openSession();
 			Member loginMember = null;
 			try {
 				//selectOne() -> 결과값(Object)
 				//->결과값이 항상 1개 아니면 null
 				//같은 아이디/ 패스워드가 테이블에 여러개 들어가 있을 경우에는 오류!
-				loginMember = sqlSession.selectOne("com.smhrd.domain.MemberDAO.selectMember", member);
+				loginMember = sqlSession.selectOne("com.smhrd.domain.ExMemberDAO.selectMember", ex_member);
 				//cnt = sqlSession.insert("com.smhrd.domain.MemberDAO.insertMember", member);
 				if(loginMember != null) {
 					sqlSession.commit();
@@ -91,15 +89,15 @@ public class MemberDAO {
 		//(mapper(resultType -> List 안에 들어가는 객체의 타입(클래스 경로))
 		
 		//전체회원정보 불러오는 기능
-		public List<Member> selectAll() {
+		public List<ExMember> selectAll() {
 			SqlSession sqlSession = sqlSessionFactory.openSession();
 			
-			List<Member> memberList = null;
+			List<ExMember> ExmemberList = null;
 			
 			try {
-				memberList = sqlSession.selectList("com.smhrd.domain.MemberDAO.selectAll");
+				ExmemberList = sqlSession.selectList("com.smhrd.domain.ExMemberDAO.selectAll");
 				
-				if(memberList!=null) {
+				if(ExmemberList!=null) {
 					sqlSession.commit();
 				}else {
 					sqlSession.rollback();
@@ -109,7 +107,7 @@ public class MemberDAO {
 			}finally {
 				sqlSession.close();
 			}
-			return memberList;
+			return ExmemberList;
 		}
 		
 		//삭제 기능
@@ -140,9 +138,9 @@ public class MemberDAO {
 			try {
 				//email2 <- 이미 있는 이메일 입력한 경우에는 해당하는 이메일이 그대로 반환
 				//		 <- 없는 이메일 입력한 경우에는 null 값 반환
-				String email2 = sqlSession.selectOne("com.smhrd.domain.MemberDAO.selectEmail",email);
+				String Exemail2 = sqlSession.selectOne("com.smhrd.domain.ExMemberDAO.selectEmail",email); //고쳐야 함
 				
-				if(email2!=null) {
+				if(Exemail2!=null) {
 					check = false;
 					sqlSession.commit();
 				}else {

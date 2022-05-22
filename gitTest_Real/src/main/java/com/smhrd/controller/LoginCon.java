@@ -23,6 +23,7 @@ public class LoginCon extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 		
 		//이메일, 비밀번호를 받아와서
+
 		String mem_id = request.getParameter("mem_id");
 		String mem_pw = request.getParameter("mem_pw");
 		

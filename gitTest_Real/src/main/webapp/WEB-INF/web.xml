@@ -10,6 +10,36 @@
      <description></description>
      <servlet-class>com.smhrd.controller.JoinCon</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>ExJoinCon</servlet-name>
+  	<display-name>ExJoinCon</display-name>
+  	<description></description>
+  	<servlet-class>com.smhrd.controller.ExJoinCon</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ExLoginCon</servlet-name>
+  	<display-name>ExLoginCon</display-name>
+  	<description></description>
+  	<servlet-class>com.smhrd.controller.ExLoginCon</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ExFileCon</servlet-name>
+  	<display-name>ExFileCon</display-name>
+  	<description></description>
+  	<servlet-class>com.smhrd.controller.ExFileCon</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ExJoinCon</servlet-name>
+  	<url-pattern>/ExJoinCon</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ExLoginCon</servlet-name>
+  	<url-pattern>/ExLoginCon</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ExFileCon</servlet-name>
+  	<url-pattern>/ExFileCon</url-pattern>
+  </servlet-mapping>
 
 <!--   <servlet-mapping>
      <servlet-name>JoinCon</servlet-name>
