@@ -24,6 +24,7 @@ public class JoinCon extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 
 		
+		
 		String mem_id = request.getParameter("mem_id");
 		String mem_pw = request.getParameter("mem_pw");
 		String mem_nick = request.getParameter("mem_nick");
@@ -46,8 +47,7 @@ public class JoinCon extends HttpServlet {
 			
 		}else {	//회원가입 실패
 			System.out.println("회원가입 실패");
-			response.sendRedirect("Main.jsp");
-	
+			response.sendRedirect("Main.jsp");	
 			
 		}
 

@@ -17,7 +17,8 @@ public class LogoutCon extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		session.removeAttribute("loginMember");
-		response.sendRedirect("main.jsp");
+		session.removeAttribute("exloginMember");
+		response.sendRedirect("loginafter.jsp");
 	}
 
 }

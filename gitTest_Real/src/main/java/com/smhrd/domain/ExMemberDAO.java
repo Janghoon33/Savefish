@@ -38,18 +38,21 @@ public class ExMemberDAO {
 		
 		
 		//로그인기능
-		public Member exSelectMember(ExMember ex_member) {
+		public ExMember ExSelectMember(ExMember ex_member) {
 			SqlSession sqlSession = sqlSessionFactory.openSession();
-			Member loginMember = null;
+			ExMember exloginMember = null;
 			try {
 				//selectOne() -> 결과값(Object)
 				//->결과값이 항상 1개 아니면 null
 				//같은 아이디/ 패스워드가 테이블에 여러개 들어가 있을 경우에는 오류!
-				loginMember = sqlSession.selectOne("com.smhrd.domain.ExMemberDAO.selectMember", ex_member);
+				exloginMember = sqlSession.selectOne("com.smhrd.domain.ExMemberDAO.ExSelectMember", ex_member);
+				System.out.println("실행4");
 				//cnt = sqlSession.insert("com.smhrd.domain.MemberDAO.insertMember", member);
-				if(loginMember != null) {
+				if(exloginMember != null) {
 					sqlSession.commit();
+					System.out.println("실행5");
 				}else {
+					System.out.println("실행6");
 					sqlSession.rollback();
 				}
 			}catch(Exception e){
@@ -57,8 +60,10 @@ public class ExMemberDAO {
 			}finally {
 				sqlSession.close();
 			}
-			return loginMember;
+			return exloginMember;
 		}
+		
+		
 		
 		//수정기능
 		public int updateMember(Member m_vo) {

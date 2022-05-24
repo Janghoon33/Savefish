@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest; 
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import com.smhrd.domain.ExMember;
 import com.smhrd.domain.ExMemberDAO;
@@ -21,36 +22,33 @@ public class ExLoginCon extends HttpServlet {
 
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("[JoinCon]");
-		//post 방식 요청 데이터 인코딩
+		System.out.println("[ExLoginCon]");
+		//post 방식으로 데이터 전송 시 인코딩
 		request.setCharacterEncoding("UTF-8");
 		
-		
+		//이메일, 비밀번호를 받아와서
+
 		String ex_id = request.getParameter("ex_id");
 		String ex_pw = request.getParameter("ex_pw");
-
-
 		
-		
+				//Member 객체에 담기
 		ExMember exm_vo = new ExMember(ex_id, ex_pw);
 		
 		ExMemberDAO exdao = new ExMemberDAO();
-		int cnt = exdao.ExInsertMember(exm_vo);
 		
-		if(cnt>0) { //회원가입 성공
-			System.out.println("회원가입 성공");
-			//회원가입한 회원의 정보중에서 email 넘겨 페이지 이동
-			//fowarding 방식으로 정보 담기	
-			//response.sendRedirect("joinSuccess.jsp");
-			RequestDispatcher rd = request.getRequestDispatcher("joinsuccess.jsp");
-			request.setAttribute("joinEmail", ex_id);
-			rd.forward(request, response);
+		ExMember exloginMember = exdao.ExSelectMember(exm_vo);
+		if(exloginMember !=null) {
+			//로그인 성공
+			System.out.println("로그인 성공");
+			HttpSession session = request.getSession();
+			session.setAttribute("exloginMember", exloginMember);
+			response.sendRedirect("loginafter.jsp");
 			
-		}else {	//회원가입 실패
-			System.out.println("회원가입 실패");
+		}else {
+			//로그인 실패
+			System.out.println("로그인 실패");
 			response.sendRedirect("Main.jsp");
 			
 		}
-
 	}
 }

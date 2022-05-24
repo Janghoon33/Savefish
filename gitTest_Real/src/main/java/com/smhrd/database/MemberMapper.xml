@@ -12,6 +12,10 @@
 		select * from t_member where mem_id=#{mem_id} and mem_pw=#{mem_pw}
 	</select>
 	
+	
+	<select id="selectEmail" parameterType="String" resultType="String">
+		select mem_id from t_member where mem_id=#{mem_id}
+	</select>
 
 </mapper>
 	

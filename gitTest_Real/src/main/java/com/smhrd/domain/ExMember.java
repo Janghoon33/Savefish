@@ -1,6 +1,6 @@
 package com.smhrd.domain;
 
-import java.security.Timestamp;
+import java.math.BigDecimal;
 
 public class ExMember {
 	private String ex_id;
@@ -9,6 +9,16 @@ public class ExMember {
 	private String ex_team;
 	private String ex_phone;
 
+	
+	public ExMember(String ex_id, String ex_pw) {
+		super();
+		this.ex_id = ex_id;
+		this.ex_pw = ex_pw;
+	
+		
+		
+	}
+	
 	
 	public ExMember(String ex_id, String ex_pw, String ex_name, String ex_team, String ex_phone ) {
 		super();
@@ -22,19 +32,10 @@ public class ExMember {
 		
 	}
 	
-	
-	public ExMember(String ex_id, String ex_pw) {
-		super();
-		this.ex_id = ex_id;
-		this.ex_pw = ex_pw;
-	
-		
-		
-	}
+
 	
 	
-	
-	public String getEx_id() {
+	public String getex_id() {
 		return ex_id;
 	}
 	public String getex_pw() {

@@ -44,6 +44,7 @@ public class MemberDAO {
 			SqlSession sqlSession = sqlSessionFactory.openSession();
 			Member loginMember = null;
 			try {
+				
 				//selectOne() -> 결과값(Object)
 				//->결과값이 항상 1개 아니면 null
 				//같은 아이디/ 패스워드가 테이블에 여러개 들어가 있을 경우에는 오류!
@@ -133,19 +134,19 @@ public class MemberDAO {
 		}
 		
 		
-		public boolean emailCheck(String email) {
+		public boolean emailCheck(String mem_id) {
 			SqlSession sqlSession = sqlSessionFactory.openSession();
 			boolean check = false; // 사용할 수 있으면(db에 값이 없다) - true
 									//사용할 수 없으면(db에 값이 있다) - false
 			try {
 				//email2 <- 이미 있는 이메일 입력한 경우에는 해당하는 이메일이 그대로 반환
 				//		 <- 없는 이메일 입력한 경우에는 null 값 반환
-				String email2 = sqlSession.selectOne("com.smhrd.domain.MemberDAO.selectEmail",email);
+				String email2 = sqlSession.selectOne("com.smhrd.domain.MemberDAO.selectEmail",mem_id);
 				
 				if(email2!=null) {
 					check = false;
 					sqlSession.commit();
-				}else {
+				}else { 
 					check = true;
 					sqlSession.commit();  //select는 commit/rollback 생략해도 됨
 				}

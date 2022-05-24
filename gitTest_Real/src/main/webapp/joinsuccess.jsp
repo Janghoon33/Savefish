@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"
+    isELIgnored ="false"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,9 +15,10 @@
 		<br>		
 		<table>
 			<tr>
-				<td>Email</td>	
+				<td>성공했다리</td>	
 				<td>${requestScope.joinEmail }</td>
 			</tr>
 		</table>
+		
 </body>
 </html>

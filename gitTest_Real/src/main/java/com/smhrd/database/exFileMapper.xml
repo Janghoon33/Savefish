@@ -8,5 +8,5 @@
 		insert into exfile(ex_id, filename) values(#{ex_id}, #{filename})	
 	</insert>
 			
-
+		
 </mapper>
