@@ -51,13 +51,13 @@ public class ExFileCon extends HttpServlet {
 			//회원가입한 회원의 정보중에서 email 넘겨 페이지 이동
 			//fowarding 방식으로 정보 담기	
 			//response.sendRedirect("joinSuccess.jsp");
-			RequestDispatcher rd = request.getRequestDispatcher("TestMain.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("mainpage.jsp");
 			request.setAttribute("joinEmail", ex_id);
 			rd.forward(request, response);
 			
 		}else {	//회원가입 실패
 			System.out.println("회원가입 실패");
-			response.sendRedirect("TestMain.jsp");
+			response.sendRedirect("ExJoinAfter.jsp");
 	
 		//cnt = dao.______(exFile)
 		

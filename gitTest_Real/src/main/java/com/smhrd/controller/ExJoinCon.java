@@ -47,7 +47,7 @@ public class ExJoinCon extends HttpServlet {
 			
 		}else {	//회원가입 실패
 			System.out.println("회원가입 실패");
-			response.sendRedirect("testform.jsp");
+			response.sendRedirect("ExJoin.jsp");
 			
 		}
 
