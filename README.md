@@ -1,25 +1,23 @@
-# 서비스명(팀명: MATCH&FIX)
-![image](https://user-images.githubusercontent.com/99248886/166611412-9fc116d1-6efe-40ea-acc6-2ddd7b4f26e7.png)
+# 구해줘 피쉬(팀명: 아쿠아맨)
+![image](https://user-images.githubusercontent.com/104408853/170424210-84dc4e20-7e83-429a-98a8-8f6b03b64313.png)
 
-## 1. 프로젝트명
-* 프로젝트주제
-* 서비스설명: 
+## 1. 프로젝트명 : 구해줘 피쉬
+* 프로젝트 주제 : 수산질병관리사 원격 케어 서비스 및 관상어 정보 제공 플랫폼
+* 서비스 설명: 수산질병관리사, 관상어관리사 등 관련 전문가와의 1:1 상담을 통해 전문적인 관상어 케어를 제공하고, 관상어 어종별 특징, 서식 환경, 주의점 등의 정보를 제공하는 서비스.
 
 ## 2. 주요기능
-* 기능1
-* 기능2
-* 기능3
-* 기능4
-* 기능5
+* 전문가 상담 서비스 : 사용자가 전문가 전문가 상담 메인 페이지에서 전문가 정보를 확인하고 선택하면, 전문가가 작성한 상세한 상담 정보를 확인할 수 있음. 1회 상담 또는 정기 상담을 선택하면, 채팅을 통해 1:1 상담이 이루어져 관상어에 대한 전문적인 조언을 얻을 수 있음.
+* 관상어 백과 서비스 : 웹 크롤링을 통해 수집한 관상어의 어종별 특징, 서식 환경, 주의점 등의 정보를 한눈에 볼 수 있도록 정리하여 제공함. 사용자는 원하는 관상어를 검색 또는 선택하여 상세한 정보를 확인할 수 있음.
+* 피쉬 아카이브 : 사용자가 자신이 가진 수조와 관상어에 대한 정보를 등록하고, 매일 일기를 쓰듯이 관상어에 대한 정보를 기록할 수 있음. 수조의 크기, 관상어 나이, 사료의 종류와 양, 투여한 치료제의 종류와 양과 같은 정보를 기록하고, 이는 추후 상담 진행 시 전문가가 관상어 상태를 쉽고 자세하게 파악할 수 있는 배경 정보로 활용됨. (미구현)
 
 ## 3. 개발환경
 |구분|내용|
 |------|---|
-|사용언어|Java, HTML, CSS, JavaScript|
-|사용한 라이브러리| Bootstrap / Kakao Map / etc...|
-|개발도구|Eclipse / RaspberryPi  /  Arduino  /  VisualStudioCode  /  AndroidStudio  / SpringFramework / etc...|
-|서버환경|tomcat 9.0|
-|데이터베이스|Firebase  /  oracle 11g / etc..|
+|사용언어|Java, HTML, CSS, JavaScript, Python|
+|사용한 라이브러리| Bootstrap / socket.io |
+|개발도구|Eclipse / VisualStudioCode|
+|서버환경|tomcat 9.0 / node.js|
+|데이터베이스|Oracle|
 
 ## 4. 아키텍처(구조)
 ![서비스 아키텍처](https://user-images.githubusercontent.com/25995055/169925538-15867bd9-aa0b-42fc-a39b-88981e926e51.png)
@@ -28,7 +26,7 @@
 ## 5. 기능 흐름도
 ### 서비스 흐름도(유스케이스)
 #### SW 유스케이스
-![image](https://user-images.githubusercontent.com/99248886/166611717-6a761c62-393f-444b-9945-34d5533b50dc.png)
+![image]((https://user-images.githubusercontent.com/104408853/170437514-017e9dec-7237-4abf-a826-4128bb2c9498.png)
 #### 서비스 흐름도(웹 화면설계서)
 ![image](https://user-images.githubusercontent.com/99248886/166611795-b01ddc4f-8236-4955-ae77-be4b576025d7.png)
 #### ER 다이어그램
@@ -46,17 +44,17 @@
 ![image](https://user-images.githubusercontent.com/99248886/166612374-a2f6d85b-501d-4a51-a0d1-8cde0c07ebf2.png)
 
 ## 7 제작 일정
-![image](https://user-images.githubusercontent.com/99248886/166612988-dc4d1968-a694-456c-b7fe-b65feef835bb.png)
+![image](https://user-images.githubusercontent.com/104408853/170438036-153e05e8-2102-444a-94c3-14dbb7e59b31.png)
 
 ## 8 팀원 단위 업무 분장 및 결과표
-![image](https://user-images.githubusercontent.com/99248886/166613023-0cd70ef4-9f0d-4f6c-b8b1-7395e67684a1.png)
+![image](https://user-images.githubusercontent.com/104408853/170438204-f1c7d4fa-781f-45e4-9005-3a15ea8dc459.png)
 
 ## 9 트러블슈팅
 개념: 문제 해결을 위해 문제의 원인을 논리적이고 체계적으로 찾는 일이며 제품이나 프로세스의 운영을 재개
 프로젝트 진행하는 동안 발생했던 이슈 중 가장 기억에 남았던 문제와 해결 프로세스 나열(2가지 정도)
 * 문제1<br>
- 문제점 설명 및 해결방안
+ 프로젝트 개발 중 모르는 부분을 검색하였을 때, 현재 상황에는 적합하지 않은 정보들이 많이 나왔음. -> 팀원들과의 소통을 통해 경험과 정보를 공유하여 많은 부분을 해결할 수 있었음.
  
 * 문제2<br>
- 문제점 설명 및 해결방안
+ 팀원들과 서로 생각하는 화면 구성이 달라 소통에 어려움을 겪음. -> Figma를 사용, UI를 팀원 모두가 함께 제작하고 공유해서 화면 구성을 통일하고 소통을 원활화할 수 있었음.
 
