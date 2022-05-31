@@ -1,12 +1,13 @@
 # 구해줘 피쉬(팀명: 아쿠아맨)
-![image](https://user-images.githubusercontent.com/104408853/170424210-84dc4e20-7e83-429a-98a8-8f6b03b64313.png)
+![구해줘피쉬_아쿠아맨](https://user-images.githubusercontent.com/104408853/171080285-a13510ee-338d-4ba6-b7d0-19ac9d38b2d7.png)
+
 
 ## 1. 프로젝트명 : 구해줘 피쉬
-* 프로젝트 주제 : 수산질병관리사 원격 케어 서비스 및 관상어 정보 제공 플랫폼
+* 프로젝트 주제 : 수산질병관리사 원격 케어 및 관상어 정보 제공 서비스
 * 서비스 설명: 수산질병관리사, 관상어관리사 등 관련 전문가와의 1:1 상담을 통해 전문적인 관상어 케어를 제공하고, 관상어 어종별 특징, 서식 환경, 주의점 등의 정보를 제공하는 서비스.
 
 ## 2. 주요기능
-* 전문가 상담 서비스 : 사용자가 전문가 전문가 상담 메인 페이지에서 전문가 정보를 확인하고 선택하면, 전문가가 작성한 상세한 상담 정보를 확인할 수 있음. 1회 상담 또는 정기 상담을 선택하면, 채팅을 통해 1:1 상담이 이루어져 관상어에 대한 전문적인 조언을 얻을 수 있음.
+* 전문가 상담 서비스 : 사용자가 전문가 전문가 상담 메인 페이지에서 전문가 정보를 확인하고 선택하면, 전문가가 작성한 상세한 상담 정보를 확인할 수 있음. 1회 상담 또는 정기 상담을 선택하면, 채팅을 통해 1:1 상담이 이루어져 관상어에 대한 전문적인 조언을 얻을 수 있음. 상담 후에는 후기글을 작성하여 다른 사용자들과 경험을 공유할 수 있음.
 * 관상어 백과 서비스 : 웹 크롤링을 통해 수집한 관상어의 어종별 특징, 서식 환경, 주의점 등의 정보를 한눈에 볼 수 있도록 정리하여 제공함. 사용자는 원하는 관상어를 검색 또는 선택하여 상세한 정보를 확인할 수 있음.
 * 피쉬 아카이브 : 사용자가 자신이 가진 수조와 관상어에 대한 정보를 등록하고, 매일 일기를 쓰듯이 관상어에 대한 정보를 기록할 수 있음. 수조의 크기, 관상어 나이, 사료의 종류와 양, 투여한 치료제의 종류와 양과 같은 정보를 기록하고, 이는 추후 상담 진행 시 전문가가 관상어 상태를 쉽고 자세하게 파악할 수 있는 배경 정보로 활용됨. (미구현)
 
@@ -20,38 +21,43 @@
 |데이터베이스|Oracle|
 
 ## 4. 아키텍처(구조)
-![서비스 아키텍처](https://user-images.githubusercontent.com/25995055/169925538-15867bd9-aa0b-42fc-a39b-88981e926e51.png)
+![서비스아키텍처_아쿠아맨](https://user-images.githubusercontent.com/104408853/171079995-97d3bd63-20a8-42ad-97ca-5c2d2cf8b9e4.png)
 
 
 ## 5. 기능 흐름도
 ### 서비스 흐름도(유스케이스)
 #### SW 유스케이스
-![image]((https://user-images.githubusercontent.com/104408853/170437514-017e9dec-7237-4abf-a826-4128bb2c9498.png)
+![유스케이스_아쿠아맨](https://user-images.githubusercontent.com/104408853/170604777-f58a29b7-3a5a-47a1-b381-f2f5b8e9e3a5.png)
 #### 서비스 흐름도(웹 화면설계서)
-![image](https://user-images.githubusercontent.com/99248886/166611795-b01ddc4f-8236-4955-ae77-be4b576025d7.png)
+![서비스흐름도_아쿠아맨](https://user-images.githubusercontent.com/104408853/170604757-07fcb8f1-6528-4f07-adbf-218b32ce147d.png)
 #### ER 다이어그램
-![image](https://user-images.githubusercontent.com/25995055/169925318-102784c2-893f-4fd7-bec9-a54c44b669d4.png)
+![ER다이어그램_아쿠아맨](https://user-images.githubusercontent.com/104408853/170604797-942244a1-9074-4194-9809-582d990a23c6.png)
 
 ## 6 SW 동작 화면
 
-### 로그인/회원가입/회원괸리/회원수정/회원탈퇴
-![image](https://user-images.githubusercontent.com/99248886/166612486-a17733a6-a3bb-4fd5-873f-57020ab80a16.png)
+### 일반 회원가입/전문가 회원가입/전문가 자격증명/로그인
+![회원가입 및 로그인_아쿠아맨](https://user-images.githubusercontent.com/104408853/171081685-f0b349c9-e0aa-4618-a391-f634d4b5d9fb.png)
 
-### 옷 정보/코디 추천(날씨, 팁, 오늘의 코디, 참고할 수 있는 코디)
-![image](https://user-images.githubusercontent.com/99248886/166612875-aee9b25d-00ff-4c07-a21f-975ccd8e6a0f.png)
+### 메인페이지(배너, 서비스 프로세스, FQA, 후기 게시판 홍보, 박람회 홍보, 팀원 소개)
+![메인페이지정리_아쿠아맨](https://user-images.githubusercontent.com/104408853/170897885-84f71494-b5be-43e0-a6b4-e1b908f0903f.png)
 
-### 일정/고객센터
-![image](https://user-images.githubusercontent.com/99248886/166612374-a2f6d85b-501d-4a51-a0d1-8cde0c07ebf2.png)
+### 전문가 정보 확인/상담 상세 정보 확인/1:1 채팅 상담
+![전문가상담_아쿠아맨](https://user-images.githubusercontent.com/104408853/170604438-58b3537c-f446-460d-943f-72e69bfdd202.png)
+
+### 관상어 백과 메인/관상어 상세 정보
+![관상어백과_아쿠아맨](https://user-images.githubusercontent.com/104408853/170898474-0b155cde-6323-4421-94af-35c4a952e097.png)
+
+### 후기 게시판
+![후기게시판_아쿠아맨](https://user-images.githubusercontent.com/104408853/171081144-a31f3568-d7a3-44b7-a314-c4630b1eb3ae.png)
+
 
 ## 7 제작 일정
-![image](https://user-images.githubusercontent.com/104408853/170438036-153e05e8-2102-444a-94c3-14dbb7e59b31.png)
+![프로젝트 일정_아쿠아맨](https://user-images.githubusercontent.com/104408853/170604975-f8566df0-5865-4387-bf17-ed637fc097d4.png)
 
 ## 8 팀원 단위 업무 분장 및 결과표
-![image](https://user-images.githubusercontent.com/104408853/170438204-f1c7d4fa-781f-45e4-9005-3a15ea8dc459.png)
+![팀원소개_아쿠아맨](https://user-images.githubusercontent.com/104408853/170604959-b7173905-5155-4ed4-af11-3db488e17a72.png)
 
 ## 9 트러블슈팅
-개념: 문제 해결을 위해 문제의 원인을 논리적이고 체계적으로 찾는 일이며 제품이나 프로세스의 운영을 재개
-프로젝트 진행하는 동안 발생했던 이슈 중 가장 기억에 남았던 문제와 해결 프로세스 나열(2가지 정도)
 * 문제1<br>
  프로젝트 개발 중 모르는 부분을 검색하였을 때, 현재 상황에는 적합하지 않은 정보들이 많이 나왔음. -> 팀원들과의 소통을 통해 경험과 정보를 공유하여 많은 부분을 해결할 수 있었음.
  
