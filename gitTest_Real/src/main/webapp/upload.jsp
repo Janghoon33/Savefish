@@ -21,20 +21,6 @@
       new WOW().init();
     </script>
 <meta charset="utf-8">
-<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="fzUsdY8AFahsHxAgVke2Wh1Y_N6hE_dYMWomEwRmn8c">
-    <meta name="naver-site-verification" content="f79c29666f9a1588a8e5ac73f8efc9b06ae92e26">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="search" type="application/opensearchdescription+xml" title="kmong" href="/opensearch.xml">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta property="og:url" content="https://kmong.com/seller/become-a-seller">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://d2v80xjmx68n4w.cloudfront.net/assets/images/desktop/kmong-pms-og.jpg">
-    <meta property="og:image:secure_url"
-        content="https://d2v80xjmx68n4w.cloudfront.net/assets/images/desktop/kmong-pms-og.jpg">
-    <meta property="og:image:alt" content="크몽까지 내 능력 | 프리랜서 마켓 No.1, 크몽">
-    <meta property="og:locale" content="ko_KR">
-    <meta property="og:site_name" content="크몽">-->
 <link rel="canonical" href="https://kmong.com/seller/become-a-seller">
 <script src="jquery-3.6.0.js"></script>
 <script src="upload.js"></script>
@@ -50,7 +36,7 @@
     </script>
 <script type="text/javascript" async=""
 	src="https://www.googleadservices.com/pagead/conversion_async.js"></script>
-<title>나태린 바보다</title>
+<title>123</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="search" type="application/opensearchdescription+xml"
 	title="kmong" href="/opensearch.xml">
