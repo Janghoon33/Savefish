@@ -16,15 +16,6 @@
 	<section id="banner" class="major">
 				<div class="inner">
 				<header class="major">
-					
-<%-- 					<c:choose>
-						<c:when test="${empty loginMember}">
-							<h1>로그인 한 세션아이디를 출력해주세요</h1>
-						</c:when>
-						<c:when test="${empty loginMember2}">
-							<h1>로그인 한 세션아이디를 출력해주세요</h1>
-						</c:when>
-					</c:choose> --%>
 		<%		
 		
 					Member loginMember = (Member)session.getAttribute("loginMember");
@@ -34,8 +25,6 @@
 					}else{
 						out.print("<a href='login.jsp'>로그인</a>");
 					}
-					
-					
 					
 					ExMember loginMember2 = (ExMember)session.getAttribute("exloginMember");
 					if(loginMember2!=null){
@@ -47,29 +36,5 @@
 					
 		 %>		
 		 
-			<%-- 	 <c:choose>
-					
-					<c:when test="${empty loginMember}">
-						<a href="login.jsp">일반로그인</a>
-						<a href="ExLogin.jsp">전문가로그인</a>
-					</c:when>
-					
-						<c:when test="${empty loginMember2}">
-						<a href="login.jsp">일반로그인</a>
-						<a href="ExLogin.jsp">전문가로그인</a>
-					</c:when>
-					
-					<c:otherwise>
-						
-						<!-- 단순 if문 -->
-					
-						<a href="LogoutCon">로그아웃</a>
-						<a href="update.jsp">개인정보수정</a>
-					</c:otherwise>
-					
-				</c:choose>	 --%>
-		 
-		 
-	
 </body>
 </html>

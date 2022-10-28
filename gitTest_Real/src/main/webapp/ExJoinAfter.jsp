@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign In | Play Tailwind</title>
+    <title>구해줘 피쉬 | 메인페이지</title>
     <link
       rel="shortcut icon"
       href="assets/images/favicon.png"
@@ -183,10 +183,7 @@
 <br>
 <br>
 <br>
-<!-- <tr>
-  <th><span>소속</span></th>
-  <td><input type="text" placeholder=""></td>
-</tr> -->
+
 <br>
 <br>
 <% String joinEmail = (String)request.getAttribute("joinEmail"); %>
@@ -210,39 +207,11 @@
 <br>
 </div><!-- join_form E  -->
 <div class="btn_wrap">
-<a href="#">화깅</a>
+<a href="#">확인</a>
 </div>
 </div> <!-- form_txtInput E -->
 </div><!-- content E-->
 </div> <!-- container E -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
 
 
   <div>
@@ -282,28 +251,6 @@ function showTextFile() {
 }
 
 </script>
-
-
-
-
-
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
               <div>
                 <span class="absolute top-1 right-1">

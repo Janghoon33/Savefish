@@ -11,15 +11,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      Play | Free Tailwind CSS Template for Startup and SaaS By TailGrids
+      구해줘 피쉬 | 홈페이지
     </title>
     <link
       rel="shortcut icon"
       href="assets/images/favicon.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/tailwind.css" />
+    <link rel="stylesheet" href="assets/css/123.css" />
+    <link rel="stylesheet" href="assets/css/update.css" />
+    <!-- <link rel="stylesheet" href="assets/css/animate.css" /> 
+    <link rel="stylesheet" href="assets/css/tailwind.css" /> -->
     <link rel="stylesheet" href="폰트.css" />
 
 <!------------------------------------------------------------------------------------------>
@@ -27,7 +29,7 @@
     <link rel="apple-touch-icon" href="./배너img/apple-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="./배너img/favicon.ico">
 
-    <link rel="stylesheet" href="./배너css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./배너css/templatemo.css">
     <link rel="stylesheet" href="./배너css/custom.css">
 
@@ -137,20 +139,6 @@
 					
 		 %>	
             
-            
-<!--             <div class="hidden justify-end pr-16 sm:flex lg:pr-0">
-              <a
-                href="SignIn.jsp"
-                class="loginBtn py-3 px-7 text-base font-medium text-white hover:opacity-70"
-              >
-                Sign In
-              </a>
-              <a
-                href="signup.html"
-                class="signUpBtn rounded-lg bg-white bg-opacity-20 py-3 px-6 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"
-              >
-                Sign Up
-              </a> -->
             </div>
           </div>
         </div>
@@ -200,55 +188,18 @@
                           </div>
                           <div class="col-lg-6 mb-0 d-flex align-items-center">
                               <div class="text-align-left align-self-center">
-                                  <h1 class="h1 text-success"><b>전전어입니다.</b></h1>
+                                  <h1 class="h1 text-success"><b>김태형입니다.</b></h1>
                                   <h3 class="h2">수산질병관리사</h3>
                                   <p>
-                                      물고기를 지켜드려요 <a rel="sponsored" class="text-success" href="https://templatemo.com" target="_blank">내게로</a>컴온<a rel="sponsored" class="text-success" href="https://stories.freepik.com/" target="_blank">Freepik Stories</a>,
-                                      <a rel="sponsored" class="text-success" href="https://unsplash.com/" target="_blank">어쩌구</a> and
-                                      <a rel="sponsored" class="text-success" href="https://icons8.com/" target="_blank">저쩌구</a>.
+                                      안녕하십니까  <a rel="sponsored" class="text-success" href="https://templatemo.com" target="_blank">고객님들이 만족하실때까지</a>정성을 다해 상담해드리겠습니다
+                                      
                                   </p>
                               </div>
                           </div>
                       </div>
                   </div>
               </div>
-              <div class="carousel-item">
-                  <div class="container">
-                      <div class="row p-5">
-                          <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                              <img class="img-fluid" src="./img/원장22.jpg" alt="">
-                          </div>
-                          <div class="col-lg-6 mb-0 d-flex align-items-center">
-                              <div class="text-align-left">
-                                  <h1 class="h1">이건어입니다.</h1>
-                                  <h3 class="h2">전남대학교 수산과학연구소 연구원</h3>
-                                  <p>
-                                     자식이라 생각하며 봐드리겠습니다
-                                     우리의 <strong>관상어</strong>의 시대가 왔습니다
-                                  </p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="container">
-                      <div class="row p-5">
-                          <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                              <img class="img-fluid" src="./img/원장33.jpg" alt="">
-                          </div>
-                          <div class="col-lg-6 mb-0 d-flex align-items-center">
-                              <div class="text-align-left">
-                                  <h1 class="h1">ㅇㅇㅇ</h1>
-                                  <h3 class="h2">ㅇㅇㅇ</h3>
-                                  <p>
-                                     ㅇㅇㅇ
-                                  </p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+              
           </div>
           <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
               <i class="fas fa-chevron-left"><</i>
@@ -380,33 +331,12 @@
               </div>
               <br>
               <br>
-
-              
             </div>
           </div>
-
-
-          
-
           <div style="height: 150px; padding-left: 600px;">
             <p class="arrow-down"></p>
           </div>
 
-          <div class="w-full px-4 md:w-1/2 lg:w-1/4">
-            <div class="wow fadeInUp group mb-12 bg-white" data-wow-delay=".25s" style="visibility: visible; animation-delay: 0.25s;">
-              <div> 그 외
-                멍충멍충~~~~~~~~~~~~~~~<img src="./img/00.jpg">
-                <span class="absolute top-0 left-0 z-[-1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-2xl bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"></span>
-                <svg width="35" height="35" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M44.9313 11.7H38.9188C40.5438 10.9687 41.7626 9.99374 42.2501 8.69374C42.9001 6.98749 42.2501 5.19999 40.3001 3.33124C38.1876 1.29999 35.9938 0.568738 33.8001 1.13749C29.9813 2.11249 27.4626 7.06874 26.2438 9.99374C25.1063 7.06874 22.5876 2.11249 18.6876 1.13749C16.4938 0.568738 14.3001 1.29999 12.1876 3.33124C10.2376 5.19999 9.5876 6.98749 10.2376 8.69374C10.7251 9.99374 12.0251 10.9687 13.5688 11.7H7.06885C5.0376 11.7 3.4126 13.325 3.4126 15.3562V21.5312C3.4126 23.5625 5.0376 25.1875 7.06885 25.1875H7.71885V46.2312C7.71885 48.8312 9.83135 51.025 12.5126 51.025H40.1376C42.7376 51.025 44.9313 48.9125 44.9313 46.2312V25.1875C46.9626 25.1875 48.5876 23.5625 48.5876 21.5312V15.3562C48.5063 13.325 46.8813 11.7 44.9313 11.7ZM34.5313 3.98124C34.7751 3.89999 35.0188 3.89999 35.1813 3.89999C36.1563 3.89999 37.2126 4.38749 38.2688 5.52499C38.7563 6.01249 39.8126 7.06874 39.5688 7.79999C39.0001 9.34374 33.9626 10.6437 28.9251 11.05C30.0626 8.36874 32.1751 4.54999 34.5313 3.98124ZM13.0001 7.71874C12.7563 6.98749 13.8126 5.93124 14.3001 5.44374C15.4376 4.38749 16.4126 3.81874 17.3876 3.81874C17.6313 3.81874 17.8751 3.81874 18.0376 3.89999C20.4751 4.54999 22.5063 8.28749 23.6438 10.9687C18.6063 10.5625 13.5688 9.26249 13.0001 7.71874ZM42.0063 46.2312C42.0063 47.2875 41.1126 48.1812 40.0563 48.1812H12.4313C11.3751 48.1812 10.4813 47.2875 10.4813 46.2312V25.1875H41.9251V46.2312H42.0063ZM45.6626 21.5312C45.6626 22.0187 45.3376 22.3437 44.8501 22.3437H7.06885C6.6626 22.3437 6.25635 22.0187 6.25635 21.5312V15.3562C6.25635 14.95 6.6626 14.5437 7.06885 14.5437H44.8501C45.2563 14.5437 45.6626 14.8687 45.6626 15.3562V21.5312Z" fill="white"></path>
-                </svg>
-              </div>
-             
-               
-             
-             
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -548,10 +478,7 @@
             </a>
           </div>
 
-             
-
               
-             
              
             </div>
           </div>
@@ -714,77 +641,6 @@
             </div>
            
           </div>
-          <div class="w-full px-4 lg:w-1/2">
-            <div
-              class="single-faq wow fadeInUp mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-5 sm:p-8"
-              data-wow-delay=".1s
-              "
-            >
-              <button class="faq-btn flex w-full items-center text-left">
-                <div
-                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary"
-                >
-                  <svg
-                    width="17"
-                    height="10"
-                    viewBox="0 0 17 10"
-                    class="icon fill-current"
-                  >
-                    <path
-                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                      fill="#3056D3"
-                      stroke="#3056D3"
-                    />
-                  </svg>
-                </div>
-                <div class="w-full">
-                  <h4 class="text-base font-semibold text-black sm:text-lg">
-                    어쩌구
-                  </h4>
-                </div>
-              </button>
-              <div class="faq-content hidden pl-[62px]">
-                <p class="py-3 text-base leading-relaxed text-body-color">
-                  저쩌구
-                </p>
-              </div>
-            </div>
-            <div
-              class="single-faq wow fadeInUp mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-5 sm:p-8"
-              data-wow-delay=".15s
-              "
-            >
-              <button class="faq-btn flex w-full items-center text-left">
-                <div
-                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary"
-                >
-                  <svg
-                    width="17"
-                    height="10"
-                    viewBox="0 0 17 10"
-                    class="icon fill-current"
-                  >
-                    <path
-                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                      fill="#3056D3"
-                      stroke="#3056D3"
-                    />
-                  </svg>
-                </div>
-                <div class="w-full">
-                  <h4 class="text-base font-semibold text-black sm:text-lg">
-                    아이유
-                  </h4>
-                </div>
-              </button>
-              <div class="faq-content hidden pl-[62px]">
-                <p class="py-3 text-base leading-relaxed text-body-color">
-                  만세
-                </p>
-              </div>
-            </div>
-           
-          </div>
         </div>
       </div>
 
@@ -820,314 +676,6 @@
     </section>
     <!-- ====== Faq Section End -->
 
-    <!-- ====== Testimonials Start ====== -->
-    <!-- <section id="testimonials" class="pt-20 md:pt-[120px]">
-      <div class="container px-4">
-        <div class="flex flex-wrap">
-          <div class="mx-4 w-full">
-            <div class="mx-auto mb-[60px] max-w-[620px] text-center lg:mb-20">
-              <span class="mb-2 block text-lg font-semibold text-primary">
-                Testimonials
-              </span>
-              <h2
-                class="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]"
-              >
-                What our Client Say
-              </h2>
-              <p
-                class="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed"
-              >
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-wrap">
-          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div
-              class="ud-single-testimonial wow fadeInUp mb-12 bg-white p-8 shadow-testimonial"
-              data-wow-delay=".1s
-              "
-            >
-              <div class="ud-testimonial-ratings mb-3 flex items-center">
-                <span class="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-              <div class="ud-testimonial-content mb-6">
-                <p class="text-base tracking-wide text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
-                </p>
-              </div>
-              <div class="ud-testimonial-info flex items-center">
-                <div
-                  class="ud-testimonial-image mr-5 h-[50px] w-[50px] overflow-hidden rounded-full"
-                >
-                  <img
-                    src="assets/images/testimonials/author-01.png"
-                    alt="author"
-                  />
-                </div>
-                <div class="ud-testimonial-meta">
-                  <h4 class="text-sm font-semibold">Sabo Masties</h4>
-                  <p class="text-xs text-[#969696]">Founder @ Rolex</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div
-              class="ud-single-testimonial wow fadeInUp mb-12 bg-white p-8 shadow-testimonial"
-              data-wow-delay=".15s
-              "
-            >
-              <div class="ud-testimonial-ratings mb-3 flex items-center">
-                <span class="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-              <div class="ud-testimonial-content mb-6">
-                <p class="text-base tracking-wide text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
-                </p>
-              </div>
-              <div class="ud-testimonial-info flex items-center">
-                <div
-                  class="ud-testimonial-image mr-5 h-[50px] w-[50px] overflow-hidden rounded-full"
-                >
-                  <img
-                    src="assets/images/testimonials/author-02.png"
-                    alt="author"
-                  />
-                </div>
-                <div class="ud-testimonial-meta">
-                  <h4 class="text-sm font-semibold">Margin Gesmu</h4>
-                  <p class="text-xs text-[#969696]">Founder @ UI Hunter</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div
-              class="ud-single-testimonial wow fadeInUp mb-12 bg-white p-8 shadow-testimonial"
-              data-wow-delay=".2s
-              "
-            >
-              <div class="ud-testimonial-ratings mb-3 flex items-center">
-                <span class="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-              <div class="ud-testimonial-content mb-6">
-                <p class="text-base tracking-wide text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
-                </p>
-              </div>
-              <div class="ud-testimonial-info flex items-center">
-                <div
-                  class="ud-testimonial-image mr-5 h-[50px] w-[50px] overflow-hidden rounded-full"
-                >
-                  <img
-                    src="assets/images/testimonials/author-03.png"
-                    alt="author"
-                  />
-                </div>
-                <div class="ud-testimonial-meta">
-                  <h4 class="text-sm font-semibold">William Smith</h4>
-                  <p class="text-xs text-[#969696]">Founder @ Trorex</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-wrap">
-          <div class="mx-4 w-full">
-            <div class="wow fadeInUp" data-wow-delay=".2s">
-           
-             
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- ====== Testimonials End ====== -->
-
     <!-- ====== Team Section Start -->
     <section id="team" class="pt-20 pb-10 lg:pt-[120px] lg:pb-20">
       <div class="container">
@@ -1145,7 +693,7 @@
               <p
                 class="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed"
               >
-                안녕하세요?
+                안녕하세요 아쿠아맨 팀입니다
               </p>
             </div>
           </div>
@@ -3331,10 +2879,10 @@
               </div>
               <div class="text-center">
                 <h4 class="mb-2 text-lg font-medium text-dark">
-                  전장어
+                  전장훈
                 </h4>
                 <p class="mb-5 text-sm font-medium text-body-color">
-                  프론트, 백엔드
+                  프론트, 백엔드, 크롤링, DB
                 </p>
               
               </div>
@@ -3343,143 +2891,6 @@
         </div>
       </div>
     </section>
-    <!-- ====== Team Section End -->
-
-    <!-- ====== Contact Start ====== -->
-    <!-- <section id="contact" class="relative py-20 md:py-[120px]">
-      <div
-        class="absolute top-0 left-0 z-[-1] h-1/2 w-full bg-[#f3f4fe] lg:h-[45%] xl:h-1/2"
-      ></div>
-      <div class="container px-4">
-        <div class="-mx-4 flex flex-wrap items-center">
-          <div class="w-full px-4 lg:w-7/12 xl:w-8/12">
-            <div class="ud-contact-content-wrapper">
-              <div class="ud-contact-title mb-12 lg:mb-[150px]">
-                <span class="mb-5 text-base font-semibold text-dark">
-                  CONTACT US
-                </span>
-                <h2 class="text-[35px] font-semibold">
-                  Let's talk about <br />
-                  Love to hear from you!
-                </h2>
-              </div>
-              <div class="mb-12 flex flex-wrap justify-between lg:mb-0">
-                <div class="mb-8 flex w-[330px] max-w-full">
-                  <div class="mr-6 text-[32px] text-primary">
-                    <svg
-                      width="29"
-                      height="35"
-                      viewBox="0 0 29 35"
-                      class="fill-current"
-                    >
-                      <path
-                        d="M14.5 0.710938C6.89844 0.710938 0.664062 6.72656 0.664062 14.0547C0.664062 19.9062 9.03125 29.5859 12.6406 33.5234C13.1328 34.0703 13.7891 34.3437 14.5 34.3437C15.2109 34.3437 15.8672 34.0703 16.3594 33.5234C19.9688 29.6406 28.3359 19.9062 28.3359 14.0547C28.3359 6.67188 22.1016 0.710938 14.5 0.710938ZM14.9375 32.2109C14.6641 32.4844 14.2812 32.4844 14.0625 32.2109C11.3828 29.3125 2.57812 19.3594 2.57812 14.0547C2.57812 7.71094 7.9375 2.625 14.5 2.625C21.0625 2.625 26.4219 7.76562 26.4219 14.0547C26.4219 19.3594 17.6172 29.2578 14.9375 32.2109Z"
-                      />
-                      <path
-                        d="M14.5 8.58594C11.2734 8.58594 8.59375 11.2109 8.59375 14.4922C8.59375 17.7188 11.2187 20.3984 14.5 20.3984C17.7812 20.3984 20.4062 17.7734 20.4062 14.4922C20.4062 11.2109 17.7266 8.58594 14.5 8.58594ZM14.5 18.4297C12.3125 18.4297 10.5078 16.625 10.5078 14.4375C10.5078 12.25 12.3125 10.4453 14.5 10.4453C16.6875 10.4453 18.4922 12.25 18.4922 14.4375C18.4922 16.625 16.6875 18.4297 14.5 18.4297Z"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <h5 class="mb-6 text-lg font-semibold">Our Location</h5>
-                    <p class="text-base text-body-color">
-                      401 Broadway, 24th Floor, Orchard Cloud View, London
-                    </p>
-                  </div>
-                </div>
-                <div class="mb-8 flex w-[330px] max-w-full">
-                  <div class="mr-6 text-[32px] text-primary">
-                    <svg
-                      width="34"
-                      height="25"
-                      viewBox="0 0 34 25"
-                      class="fill-current"
-                    >
-                      <path
-                        d="M30.5156 0.960938H3.17188C1.42188 0.960938 0 2.38281 0 4.13281V20.9219C0 22.6719 1.42188 24.0938 3.17188 24.0938H30.5156C32.2656 24.0938 33.6875 22.6719 33.6875 20.9219V4.13281C33.6875 2.38281 32.2656 0.960938 30.5156 0.960938ZM30.5156 2.875C30.7891 2.875 31.0078 2.92969 31.2266 3.09375L17.6094 11.3516C17.1172 11.625 16.5703 11.625 16.0781 11.3516L2.46094 3.09375C2.67969 2.98438 2.89844 2.875 3.17188 2.875H30.5156ZM30.5156 22.125H3.17188C2.51562 22.125 1.91406 21.5781 1.91406 20.8672V5.00781L15.0391 12.9922C15.5859 13.3203 16.1875 13.4844 16.7891 13.4844C17.3906 13.4844 17.9922 13.3203 18.5391 12.9922L31.6641 5.00781V20.8672C31.7734 21.5781 31.1719 22.125 30.5156 22.125Z"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <h5 class="mb-6 text-lg font-semibold">How Can We Help?</h5>
-                    <p class="text-base text-body-color"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f891969e97b881978d8a9c9795999196d69b9795">[email&#160;protected]</a></p>
-                    <p class="text-base text-body-color">
-                      <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4e2d21203a2f2d3a0e37213b3c2a21232f2720602d2123">[email&#160;protected]</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="w-full px-4 lg:w-5/12 xl:w-4/12">
-            <div
-              class="wow fadeInUp rounded-lg bg-white py-10 px-8 shadow-testimonial sm:py-12 sm:px-10 md:p-[60px] lg:p-10 lg:py-12 lg:px-10 2xl:p-[60px]"
-              data-wow-delay=".2s
-              "
-            >
-              <h3 class="mb-8 text-2xl font-semibold md:text-[26px]">
-                Send us a Message
-              </h3>
-              <form>
-                <div class="mb-6">
-                  <label for="fullName" class="block text-xs text-dark"
-                    >Full Name*</label
-                  >
-                  <input
-                    type="text"
-                    name="fullName"
-                    placeholder="Adam Gelius"
-                    class="w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none"
-                  />
-                </div>
-                <div class="mb-6">
-                  <label for="email" class="block text-xs text-dark"
-                    >Email*</label
-                  >
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="example@yourmail.com"
-                    class="w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none"
-                  />
-                </div>
-                <div class="mb-6">
-                  <label for="phone" class="block text-xs text-dark"
-                    >Phone*</label
-                  >
-                  <input
-                    type="text"
-                    name="phone"
-                    placeholder="+885 1254 5211 552"
-                    class="w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none"
-                  />
-                </div>
-                <div class="mb-6">
-                  <label for="message" class="block text-xs text-dark"
-                    >Message*</label
-                  >
-                  <textarea
-                    name="message"
-                    rows="1"
-                    placeholder="type your message here"
-                    class="w-full resize-none border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none"
-                  ></textarea>
-                </div>
-                <div class="mb-0">
-                  <button
-                    type="submit"
-                    class="inline-flex items-center justify-center rounded bg-primary py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-dark"
-                  >
-                    Send Message
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- ====== Contact End ====== -->
 
     <!-- ====== Footer Section Start -->
     <footer
@@ -3888,10 +3299,10 @@
 
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/main.js"></script>
   
-    <script src="./assets/js/jquery-1.11.0.min.js"></script>
-    <script src="./assets/js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/templatemo.js"></script>
-    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/JS/jquery-1.11.0.min.js"></script>
+    <script src="./assets/JS/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./assets/JS/bootstrap.bundle.min.js"></script>
+    <script src="./assets/JS/templatemo.js"></script>
+    <script src="./assets/JS/custom.js"></script>
   </body>
 </html>

@@ -15,7 +15,7 @@
 		<br>		
 		<table>
 			<tr>
-				<td>성공했다리</td>	
+				<td>성공했다</td>	
 				<td>${requestScope.joinEmail }</td>
 			</tr>
 		</table>

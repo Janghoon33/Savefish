@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign In | Play Tailwind</title>
+    <title>구해줘 피쉬 | 전문가 회원가입 페이지</title>
     <link
       rel="shortcut icon"
       href="assets/images/favicon.png"
@@ -258,41 +258,11 @@
         <div class="exform_txt"><span>표시는 필수적으로 입력해주셔야 가입이 가능합니다.</span></div>
       </div><!-- join_form E  -->
     
-<!--       <div class="btn_wrap">
-        <a href="signup전문가라이센서.html">다음</a> -->
       </div>
     </div> <!-- form_txtInput E -->
   </div><!-- content E-->
 </div> <!-- container E -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-             
-            
-           
 
               <div>
                 <span class="absolute top-1 right-1">
