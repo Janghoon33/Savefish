@@ -1,0 +1,166 @@
+body {
+    bakground-color: #bbb7d7 ;
+    min-height: 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    /* padding-right: 25%;
+    padding-left: 25%; */
+  }
+  .jumbotron {
+    text-align: center;
+    background-color: #27a6eb;
+    opacity: .5;
+  
+  }
+  #bootstrap-overrides a {
+    text-decoration: none;
+    color: rgb(31, 26, 26);
+  }
+  h1 {
+    color: white;
+    text-align: center;
+    box-sizing: content-box;
+    height: 50px;
+    overflow: visible;
+    }
+  
+  h2 {
+    display: inline;
+    color: #110606;
+  }
+   h5 {
+    display:inline-block;
+    float: right;
+  }
+  .bulleted {
+    list-style: none;
+  }
+  #bootstrap-overrides .listTab {
+    border-radius: 5px;
+    min-height: 100px;
+    color: rgb(29, 27, 27);
+    background-color: #34ccd6;
+    text-align: left;
+    margin-top: 10px;
+  }
+  #menu {
+    padding: 0px;
+    border-radius: 5px;
+    background-color: rgb(48 86 211);
+    /*height: 150px;*/
+  }
+  #menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+  }
+  #menu  .leftNav{
+      border-right: 1px solid #bbb;
+    }
+  #menu li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  #search-list {
+      border-left: 1px solid #bbb;
+  }
+  .hide {
+    display: none;
+  }
+  .searchBar {
+    display: none;
+  }
+  .media-left img {
+    width: 150px;
+    height: auto;
+  }
+  a:hover {
+   cursor:pointer;
+  }
+  input[type="search" i] {
+    appearance: auto;
+    box-sizing: border-box;
+    padding: 1px 2px;
+    width: 1000px;
+    height: 35px;
+}
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+.media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+.media-body{
+    padding-left: 20px;
+}
+.media-left img {
+    width: 150px;
+    height: auto;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+}
+#bootstrap-overrides a {
+    text-decoration: none;
+    color: rgb(19, 16, 16);
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.btn-search{
+    width: 100px;
+    height: 40px;
+    margin-left: 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 5%;
+}
+input[type="search" i] {
+    appearance: auto;
+    box-sizing: border-box;
+    padding: 1px 2px;
+    width: 846px;
+    height: 40px;
+}
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+.css-1opa9yw {
+    height: 1px;
+    margin: 0px 16px;
+    border: none;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.12);
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}

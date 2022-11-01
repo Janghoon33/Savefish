@@ -31,7 +31,7 @@
     <div class="container">
       <div class="relative -mx-4 flex items-center justify-between">
         <div class="w-60 max-w-full px-4">
-          <a href="메인Page.html" class="navbar-logo block w-full py-5">
+          <a href="mainpage.jsp" class="navbar-logo block w-full py-5">
             <img
               src="#"
               alt="logo"

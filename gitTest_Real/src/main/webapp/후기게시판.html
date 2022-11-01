@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>구해줘 피쉬 | 후기게시판</title>
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tailwind.css" />
+    <link rel="stylesheet" type="text/css" href="./게시판.css" />
+    <link rel="stylesheet" href="폰트.css" />
+   
+    <!-- ==== WOW JS ==== -->
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </head>
+  <body>
+    <!-- ====== Navbar Section Start -->
+    <div
+    class="ud-header absolute top-0 left-0 z-40 flex w-full items-center bg-transparent"
+  >
+    <div class="container">
+      <div class="relative -mx-4 flex items-center justify-between">
+        <div class="w-60 max-w-full px-4">
+          <a href="mainpage.jsp" class="navbar-logo block w-full py-5">
+            <img
+              src="로고2.svg"
+              alt="logo"
+              class="header-logo w-full"
+            />
+          </a>
+        </div>
+        <div class="flex w-full items-center justify-between px-4">
+          <div>
+            <button
+              id="navbarToggler"
+              class="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
+            >
+              <span
+                class="relative my-[6px] block h-[2px] w-[30px] bg-white"
+              ></span>
+              <span
+                class="relative my-[6px] block h-[2px] w-[30px] bg-white"
+              ></span>
+              <span
+                class="relative my-[6px] block h-[2px] w-[30px] bg-white"
+              ></span>
+            </button>
+            <nav
+              id="navbarCollapse"
+              class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:px-4 lg:shadow-none xl:px-6"
+            >
+              <ul class="blcok lg:flex">
+                <li class="group relative">
+                  <a
+                    href="전문가소개틀합(일반).html" 
+                    class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70"
+                  >
+                    전문가 매칭
+                  </a>
+                 
+                </li>
+                <li class="group relative">
+                  <a
+                    href="관상어검색페이지.html"
+                    class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"
+                  >
+                    관상어 정보
+                  </a>
+                 
+                </li>
+                <li class="group relative">
+               
+                 
+                </li>
+                <li class="group relative">
+                  <a
+                    href="후기게시판.html"
+                    class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"
+                  >
+                    후기 게시판
+                  </a>
+                  
+                </li>
+                <li class="group relative">
+                 
+                 
+                </li>
+                <li class="submenu-item group relative">
+                  
+                 
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="hidden justify-end pr-16 sm:flex lg:pr-0">
+            <a
+              href="SignIn.jsp"
+              class="loginBtn py-3 px-7 text-base font-medium text-white hover:opacity-70"
+            >
+              Sign In
+            </a>
+            <a
+              href="SignUp.jsp"
+              class="signUpBtn rounded-lg bg-white bg-opacity-20 py-3 px-6 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"
+            >
+              Sign Up
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ====== Navbar Section End -->
+
+  <!-- ====== Banner Section Start -->
+  <div
+    class="relative z-10 overflow-hidden bg-primary pt-[120px] pb-[100px] md:pt-[130px] lg:pt-[160px]"
+  >
+    <div class="container">
+      <div class="-mx-4 flex flex-wrap items-center">
+        <div class="w-full px-4">
+          <div class="text-center">
+            <h1 class="text-4xl font-semibold text-white"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <span class="absolute top-0 left-0 z-[-1]">
+        <svg
+          width="495"
+          height="470"
+          viewBox="0 0 495 470"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="55"
+            cy="442"
+            r="138"
+            stroke="white"
+            stroke-opacity="0.04"
+            stroke-width="50"
+          />
+          <circle
+            cx="446"
+            r="39"
+            stroke="white"
+            stroke-opacity="0.04"
+            stroke-width="20"
+          />
+          <path
+            d="M245.406 137.609L233.985 94.9852L276.609 106.406L245.406 137.609Z"
+            stroke="white"
+            stroke-opacity="0.08"
+            stroke-width="12"
+          />
+        </svg>
+      </span>
+      <span class="absolute top-0 right-0 z-[-1]">
+        <svg
+          width="493"
+          height="470"
+          viewBox="0 0 493 470"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="462"
+            cy="5"
+            r="138"
+            stroke="white"
+            stroke-opacity="0.04"
+            stroke-width="50"
+          />
+          <circle
+            cx="49"
+            cy="470"
+            r="39"
+            stroke="white"
+            stroke-opacity="0.04"
+            stroke-width="20"
+          />
+          <path
+            d="M222.393 226.701L272.808 213.192L259.299 263.607L222.393 226.701Z"
+            stroke="white"
+            stroke-opacity="0.06"
+            stroke-width="13"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+    <!-- ====== Banner Section End -->
+
+    <!-- ====== Forms Section Start -->
+    <section class="bg-[#F4F7FF] py-14 lg:py-20">
+      <div class="container">
+        <div class="-mx-4 flex flex-wrap">
+          <div class="w-full px-4">
+         
+            <div>
+
+                <table class="board_list" align="center" style="width: 75%;" border="2">
+                    <colgroup>
+                        <col style="width:70px" />
+                        <col style="width:150px" />
+                        <col />
+                        <col style="width:110px" />
+                <col style="width:110px" />
+                        <col style="width:70px" />
+                    </colgroup>
+                    <tr style="height: 50px; background-color:  rgb(66, 105, 233);">
+                      <th align="center">번호</th>
+                      <th align="center">사진</th>
+                      <th align="center">제목</th>
+                      <th align="center">작성자</th>
+                  <th align="center">등록일</th>
+                      <th align="center">조회</th>
+                    </tr>
+         
+                    <tr class="boardtr">
+                      <td align="center">1</td>
+                      <td style="padding:5px">
+                          
+                               <a href="후기들.html"  class="toggle_popup_login">
+                                 <img src="./assets/images/니모미.png" alt="" style="margin:0 auto 0 auto;width:150px;height:110px" />
+                            </a>
+                        </td>
+                        <td class="left" style="padding-right: 150px;">
+                          
+                          
+                            
+                            <a href="후기들.html"  class="toggle_popup_login">
+                                <strong>     안녕하세요 눈물납니다</strong>
+                                <br>
+                                <br>
+                                <font style="font-weight:400">제 애들이 너무 아팠었는데 ㅜ </font>
+                                <br />
+                                <div style="margin-top:5px;color:#666;max-width:530px;word-break: break-all">
+                                <!-- .content -->
+                                </div>
+                            </a>
+                        </td>
+                      <td align="center">손석구</td>
+                  <td align="center">2022-01-17</td>
+                      <td align="center">53</td>
+                    </tr>
+         
+                    <tr class="boardtr">
+                      <td align="center">2</td>
+                      <td style="padding:5px">
+                          
+                               <a href="후기들.html"  class="toggle_popup_login">
+                                 <img src="./assets/images/니모미.png" alt="" style="margin:0 auto 0 auto;width:150px;height:110px" />
+                            </a>
+                        </td>
+                        <td class="left" style="padding-right:150px">
+                          
+                          
+                            
+                            <a href="/oboard/post/view/cno/all/no/245188/page/1"  class="toggle_popup_login">
+                                <strong>행복한 나날들입니다.</strong>
+                                <br>
+                                <br>
+                                <font style="font-weight:400">제 새끼들을 살려주셔서 감사합니다</font>
+                                <br />
+                                <div style="margin-top:5px;color:#666;max-width:530px;word-break: break-all">
+                                <!-- .content -->
+                                </div>
+                            </a>
+                        </td>
+                      <td align="center">김태원</td>
+                  <td align="center">2022-01-09</td>
+                      <td align="center">66</td>
+                    </tr>
+         
+                    <tr class="boardtr">
+                      <td align="center">3</td>
+                      <td style="padding:5px">
+                          
+                               <a href="/oboard/post/view/cno/all/no/245163/page/1"  class="toggle_popup_login">
+                                 <img src="./assets/images/니모미.png" alt="" style="margin:0 auto 0 auto;width:150px;height:110px" />
+                            </a>
+                        </td>
+                        <td class="left" style="padding-right:150px">
+                          
+                          
+                            
+                            <a href="/oboard/post/view/cno/all/no/245163/page/1"  class="toggle_popup_login">
+                                <strong>너무 감사드립니다</strong>
+                                <br>
+                                <br>
+                                <font style="font-weight:400">감사합니다.</font>
+                                <br />
+                                <div style="margin-top:5px;color:#666;max-width:530px;word-break: break-all">
+                                <!-- .content -->
+                                </div>
+                            </a>
+                        </td>
+                      <td align="center">신용재</td>
+                  <td align="center">2022-01-07</td>
+                      <td align="center">99</td>
+                    </tr>
+         
+                    <tr class="boardtr">
+                      <td align="center">4</td>
+                      <td style="padding:5px">
+                          
+                               <a href="/oboard/post/view/cno/all/no/245146/page/1"  class="toggle_popup_login">
+                                 <img src="./assets/images/니모미.png" alt="" style="margin:0 auto 0 auto;width:150px;height:110px" />
+                            </a>
+                        </td>
+                        <td class="left" style="padding-right:150px">
+                          
+                          
+                            
+                            <a href="/oboard/post/view/cno/all/no/245146/page/1"  class="toggle_popup_login">
+                                <strong>ㅜㅜㅜㅜ눈물나요 ㅜㅜㅜㅜㅜㅜ</strong>
+                                <br>
+                                <br>
+                                <font style="font-weight:400">답답했는데..!  </font>
+                                <br />
+                                <div style="margin-top:5px;color:#666;max-width:530px;word-break: break-all">
+                                <!-- .content -->
+                                </div>
+                            </a>
+                        </td>
+                        
+                      <td align="center">고병갑</td>
+                  <td align="center">2022-01-06</td>
+                      <td align="center">2</td>
+                    </tr>
+                </table>
+
+                <div class="oboard_bottom_btns">
+                    <div class="left">&nbsp;</div>
+                    <div class="right">
+                        <div class="btn">
+                           
+                            <button type="button" onclick="location.href='후기작성판.html'" 
+                            style="width: 90px; height: 40px; position: relative;left: 160px; background-color:  rgb(48 86 210 ); color: white;">후기 작성</button>
+                            </a>                    
+                        </div>
+                    </div>
+                </div>
+        
+                <div style="text-align:center; margin-top:10px;">
+        
+                  <center><div id="paginate">
+                    <
+                     <a class=" now" ><span>1 |</span></a>
+                     <a class=" " href="#"><span>2 |</span></a>
+                     <a class=" " href="#"><span>3 |</span></a>
+                     <a class=" " href="#"><span>4 |</span></a>
+                     <a class=" " href="#"><span>5</span></a>
+                    >
+                          </div>
+                       </center>
+        </div>     
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Forms Section End -->
+
+    <!-- ====== Footer Section Start -->
+    <section id="contact" class="relative py-20 md:py-[120px]" style="background-color: rgba(64, 119, 246, 0.337);">
+      <div
+        class="absolute top-0 left-0 z-[-1] h-1/2 w-full bg-[#f3f4fe] lg:h-[45%] xl:h-1/2"
+      ></div>
+      <div class="container px-4">
+        <div class="-mx-4 flex flex-wrap items-center">
+          <div class="w-full px-4 lg:w-7/12 xl:w-8/12" style="height: 400px;">
+            <div class="ud-contact-content-wrapper">
+              <div class="ud-contact-title mb-12 lg:mb-[150px]">
+                <span class="mb-5 text-base font-semibold text-dark">
+                  CONTACT US
+                </span>
+                <h2 class="text-[35px] font-semibold">
+                  Let's come on here<br />
+                  We do that to save and care your fish!
+                </h2>
+              </div>
+              <div class="mb-12 flex flex-wrap justify-between lg:mb-0">
+                <div class="mb-8 flex w-[330px] max-w-full">
+                  <div class="mr-6 text-[32px] text-primary">
+                    <svg
+                      width="29"
+                      height="35"
+                      viewBox="0 0 29 35"
+                      class="fill-current"
+                    >
+                      <path
+                        d="M14.5 0.710938C6.89844 0.710938 0.664062 6.72656 0.664062 14.0547C0.664062 19.9062 9.03125 29.5859 12.6406 33.5234C13.1328 34.0703 13.7891 34.3437 14.5 34.3437C15.2109 34.3437 15.8672 34.0703 16.3594 33.5234C19.9688 29.6406 28.3359 19.9062 28.3359 14.0547C28.3359 6.67188 22.1016 0.710938 14.5 0.710938ZM14.9375 32.2109C14.6641 32.4844 14.2812 32.4844 14.0625 32.2109C11.3828 29.3125 2.57812 19.3594 2.57812 14.0547C2.57812 7.71094 7.9375 2.625 14.5 2.625C21.0625 2.625 26.4219 7.76562 26.4219 14.0547C26.4219 19.3594 17.6172 29.2578 14.9375 32.2109Z"
+                      />
+                      <path
+                        d="M14.5 8.58594C11.2734 8.58594 8.59375 11.2109 8.59375 14.4922C8.59375 17.7188 11.2187 20.3984 14.5 20.3984C17.7812 20.3984 20.4062 17.7734 20.4062 14.4922C20.4062 11.2109 17.7266 8.58594 14.5 8.58594ZM14.5 18.4297C12.3125 18.4297 10.5078 16.625 10.5078 14.4375C10.5078 12.25 12.3125 10.4453 14.5 10.4453C16.6875 10.4453 18.4922 12.25 18.4922 14.4375C18.4922 16.625 16.6875 18.4297 14.5 18.4297Z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 class="mb-6 text-lg font-semibold">Our Location</h5>
+                    <p class="text-base text-body-color">
+                      광주본점 : 광주 동구 31-15 3~5, 7층
+                      <br>
+                      광주남구점 : 광주 남구 송암로 60 2층
+                      <br>
+                      서울점 : 성동구 성수일로 99 1201호
+                      <br>
+                      순천점 : 전라남도 순천시 중앙로 260
+                    </p>
+                  </div>
+                </div>
+                <div class="mb-8 flex w-[330px] max-w-full" style="padding-right: 420px;">
+                  <div class="mr-6 text-[32px] text-primary">
+                    <svg
+                      width="34"
+                      height="25"
+                      viewBox="0 0 34 25"
+                      class="fill-current"
+                    >
+                      <path
+                        d="M30.5156 0.960938H3.17188C1.42188 0.960938 0 2.38281 0 4.13281V20.9219C0 22.6719 1.42188 24.0938 3.17188 24.0938H30.5156C32.2656 24.0938 33.6875 22.6719 33.6875 20.9219V4.13281C33.6875 2.38281 32.2656 0.960938 30.5156 0.960938ZM30.5156 2.875C30.7891 2.875 31.0078 2.92969 31.2266 3.09375L17.6094 11.3516C17.1172 11.625 16.5703 11.625 16.0781 11.3516L2.46094 3.09375C2.67969 2.98438 2.89844 2.875 3.17188 2.875H30.5156ZM30.5156 22.125H3.17188C2.51562 22.125 1.91406 21.5781 1.91406 20.8672V5.00781L15.0391 12.9922C15.5859 13.3203 16.1875 13.4844 16.7891 13.4844C17.3906 13.4844 17.9922 13.3203 18.5391 12.9922L31.6641 5.00781V20.8672C31.7734 21.5781 31.1719 22.125 30.5156 22.125Z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 class="mb-6 text-lg font-semibold">How Can We Help?</h5>
+                    <p class="text-base text-body-color"></p>
+                    <p class="text-base text-body-color">
+                      FAX : 062-655-3510
+                      E-Mail : smhrd@smhrd.or.kr    
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-5/12 xl:w-4/12">
+            <div
+              class="wow fadeInUp rounded-lg bg-white py-10 px-8 shadow-testimonial sm:py-12 sm:px-10 md:p-[60px] lg:p-10 lg:py-12 lg:px-10 2xl:p-[60px]"
+              data-wow-delay=".2s
+              "
+            >
+          
+              
+               <img src="./로고1-2.svg" style="width: 480px; height: 180px;">
+               
+               
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Footer Section End -->
+
+    <!-- ====== Back To Top Start -->
+    <a
+      href="javascript:void(0)"
+      class="back-to-top fixed bottom-8 right-8 left-auto z-[999] hidden h-10 w-10 items-center justify-center rounded-md bg-primary text-white shadow-md transition duration-300 ease-in-out hover:bg-dark"
+    >
+      <span
+        class="mt-[6px] h-3 w-3 rotate-45 border-t border-l border-white"
+      ></span>
+    </a>
+    <!-- ====== Back To Top End -->
+
+    <!-- ====== All Scripts -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
