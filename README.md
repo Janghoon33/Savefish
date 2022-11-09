@@ -17,7 +17,7 @@
 |사용언어|Java, HTML, CSS, JavaScript, Python|
 |사용한 라이브러리| Bootstrap / socket.io |
 |개발도구|Eclipse / VisualStudioCode|
-|서버환경|tomcat 9.0 / node.js|
+|서버환경|tomcat 9.0 / express.js|
 |데이터베이스|Oracle|
 
 ## 4. 아키텍처(구조)
