@@ -1,4 +1,4 @@
-# 구해줘 피쉬(팀명: 아쿠아맨)
+# 구해줘 피쉬 (팀명: 아쿠아맨)
 ![구해줘피쉬_아쿠아맨](https://user-images.githubusercontent.com/104408853/171080285-a13510ee-338d-4ba6-b7d0-19ac9d38b2d7.png)
 
 
